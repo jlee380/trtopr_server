@@ -1,0 +1,380 @@
+{
+	"1": {
+		"time_stamp": "2021-05-10T02:43:30.400Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 96,
+			"SAH": 1056,
+			"SAHF": 11,
+			"CWEF": 280,
+			"CWE": 6961
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000,
+			"CWEF": 10000000,
+			"CWE": 30000
+		}
+	},
+	"2": {
+		"time_stamp": "2021-05-15T05:10:07.676Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 133,
+			"CWE": 8273,
+			"CWEF": 310,
+			"SAH": 1271,
+			"SAHF": 21
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"3": {
+		"time_stamp": "2021-05-15T05:16:24.758Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 133,
+			"CWE": 8275,
+			"CWEF": 312,
+			"SAH": 1271,
+			"SAHF": 21
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"4": {
+		"time_stamp": "2021-05-15T05:31:15.197Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 133,
+			"CWE": 8276,
+			"CWEF": 312,
+			"SAH": 1271,
+			"SAHF": 21
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"5": {
+		"time_stamp": "2021-05-15T06:24:42.821Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 133,
+			"CWE": 8283,
+			"CWEF": 312,
+			"SAH": 1271,
+			"SAHF": 21
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"6": {
+		"time_stamp": "2021-05-15T06:25:07.061Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 133,
+			"CWE": 8284,
+			"CWEF": 312,
+			"SAH": 1271,
+			"SAHF": 21
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"7": {
+		"time_stamp": "2021-05-15T18:27:09.151Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 135,
+			"CWE": 8334,
+			"CWEF": 313,
+			"SAH": 1280,
+			"SAHF": 21
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"8": {
+		"time_stamp": "2021-05-15T19:26:57.934Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 136,
+			"CWE": 8347,
+			"CWEF": 313,
+			"SAH": 1281,
+			"SAHF": 21
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"9": {
+		"time_stamp": "2021-05-16T18:20:46.629Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 141,
+			"CWE": 8463,
+			"CWEF": 314,
+			"SAH": 1298,
+			"SAHF": 22
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"10": {
+		"time_stamp": "2021-05-16T18:28:43.980Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 141,
+			"CWE": 8464,
+			"CWEF": 314,
+			"SAH": 1299,
+			"SAHF": 22
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"11": {
+		"time_stamp": "2021-05-17T00:41:39.889Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 143,
+			"CWE": 8513,
+			"CWEF": 314,
+			"SAH": 1303,
+			"SAHF": 22
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"12": {
+		"time_stamp": "2021-05-17T02:29:19.991Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 143,
+			"CWE": 8522,
+			"CWEF": 315,
+			"SAH": 1304,
+			"SAHF": 22
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"13": {
+		"time_stamp": "2021-05-17T03:38:19.489Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 143,
+			"CWE": 8531,
+			"CWEF": 315,
+			"SAH": 1307,
+			"SAHF": 22
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	},
+	"14": {
+		"time_stamp": "2021-05-17T04:48:25.824Z",
+		"openPathways": {
+			"IGR": false,
+			"IGRF": true,
+			"CWE": true,
+			"CWEF": true,
+			"SAH": true,
+			"SAHF": true
+		},
+		"pathwayCounter": {
+			"IGR": 40000,
+			"IGRF": 143,
+			"CWE": 8540,
+			"CWEF": 315,
+			"SAH": 1310,
+			"SAHF": 22
+		},
+		"pathwayCaps": {
+			"IGR": 40000,
+			"IGRF": 10000000,
+			"CWE": 30000,
+			"CWEF": 10000000,
+			"SAH": 20000,
+			"SAHF": 10000000
+		}
+	}
+}
