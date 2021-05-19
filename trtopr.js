@@ -51,7 +51,7 @@ setInterval(function () {
 	crawl({
 		url: 'https://uw9yf1u6qf.execute-api.ca-central-1.amazonaws.com/prod/live-counter',
 	});
-}, 3600000);
+}, 3600);
 
 app.get('/data', (req, res) => {
 	const data = getJsonData();
