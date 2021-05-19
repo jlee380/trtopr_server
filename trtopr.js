@@ -1,12 +1,14 @@
-const express = require("express");
-const fetch = require("node-fetch");
-const fs = require("fs");
+const express = require('express');
+const fetch = require('node-fetch');
+const fs = require('fs');
 
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
+
+app.use(express.static('public'));
 
 app.use((req, res, next) => {
-	res.header("Access-Control-Allow-Origin", "*");
+	res.header('Access-Control-Allow-Origin', '*');
 	next();
 });
 
@@ -29,7 +31,7 @@ const crawl = async ({ url }) => {
 	let finalData = JSON.stringify(obj);
 
 	// write updated data to data.json
-	fs.writeFile("data.json", finalData, (err) => {
+	fs.writeFile('data.json', finalData, (err) => {
 		if (err) {
 			throw err;
 		}
@@ -38,7 +40,7 @@ const crawl = async ({ url }) => {
 };
 
 const getJsonData = () => {
-	const data = fs.readFileSync("data.json");
+	const data = fs.readFileSync('data.json');
 	const result = JSON.parse(data);
 
 	return result;
@@ -47,11 +49,11 @@ const getJsonData = () => {
 // execute the function every hour
 setInterval(function () {
 	crawl({
-		url: "https://uw9yf1u6qf.execute-api.ca-central-1.amazonaws.com/prod/live-counter",
+		url: 'https://uw9yf1u6qf.execute-api.ca-central-1.amazonaws.com/prod/live-counter',
 	});
 }, 3600000);
 
-app.get("/data", (req, res) => {
+app.get('/data', (req, res) => {
 	const data = getJsonData();
 	res.send(data);
 });
