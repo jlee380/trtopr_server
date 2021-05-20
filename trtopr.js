@@ -64,6 +64,14 @@ app.get('/data', (req, res) => {
 	res.send(data);
 });
 
+app.get('/fetch', async (req, res) => {
+	const data = await fetch(
+		'https://uw9yf1u6qf.execute-api.ca-central-1.amazonaws.com/prod/live-counter'
+	);
+	const json = await data.json();
+	res.send(json);
+});
+
 app.listen(port, () => {
 	console.log(`Example app listening at http://localhost:${port}`);
 });
