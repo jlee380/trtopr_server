@@ -1,6 +1,7 @@
 const express = require('express');
 const fetch = require('node-fetch');
 const fs = require('fs');
+const useragent = require('express-useragent');
 
 const app = express();
 const port = process.env.PORT || 3001;
@@ -10,6 +11,11 @@ app.use(express.static('public'));
 app.use((req, res, next) => {
 	res.header('Access-Control-Allow-Origin', '*');
 	next();
+});
+
+app.use(useragent.express());
+app.get('/useragent', function (req, res) {
+	res.send(req.useragent);
 });
 
 const crawl = async ({ url }) => {
@@ -51,7 +57,7 @@ setInterval(function () {
 	crawl({
 		url: 'https://uw9yf1u6qf.execute-api.ca-central-1.amazonaws.com/prod/live-counter',
 	});
-}, 10000);
+}, 3600000);
 
 app.get('/data', (req, res) => {
 	const data = getJsonData();
