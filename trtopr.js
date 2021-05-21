@@ -4,7 +4,7 @@ const fs = require('fs');
 const useragent = require('express-useragent');
 
 const app = express();
-const port = process.env.PORT || 81;
+const port = process.env.PORT || 80;
 
 app.use(express.static('public'));
 
