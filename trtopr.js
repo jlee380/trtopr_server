@@ -1,10 +1,12 @@
 const express = require('express');
 const fetch = require('node-fetch');
 const fs = require('fs');
+const path = require('path');
+const https = require('https');
 const useragent = require('express-useragent');
 
 const app = express();
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 443;
 
 app.use(express.static('public'));
 
@@ -17,6 +19,14 @@ app.use(useragent.express());
 app.get('/useragent', function (req, res) {
 	res.send(req.useragent);
 });
+
+const sslServer = https.createServer(
+	{
+		key: fs.readFileSync(path.join(__dirname, 'cert', 'key.pem')),
+		cert: fs.readFileSync(path.join(__dirname, 'cert', 'cert.pem')),
+	},
+	app
+);
 
 const crawl = async ({ url }) => {
 	let obj = {};
@@ -72,6 +82,6 @@ app.get('/fetch', async (req, res) => {
 	res.send(json);
 });
 
-app.listen(port, () => {
+sslServer.listen(port, () => {
 	console.log(`Example app listening at http://localhost:${port}`);
 });
