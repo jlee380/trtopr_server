@@ -6,7 +6,7 @@ const https = require('https');
 const useragent = require('express-useragent');
 
 const app = express();
-const port = process.env.PORT || 81;
+const port = process.env.PORT || 443;
 
 app.use(express.static('public'));
 
@@ -82,6 +82,6 @@ app.get('/fetch', async (req, res) => {
 	res.send(json);
 });
 
-app.listen(port, () => {
+sslServer.listen(port, () => {
 	console.log(`Example app listening at http://localhost:${port}`);
 });
