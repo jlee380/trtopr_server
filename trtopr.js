@@ -20,13 +20,13 @@ app.get('/useragent', function (req, res) {
 	res.send(req.useragent);
 });
 
-const sslServer = https.createServer(
-	{
-		key: fs.readFileSync(path.join(__dirname, 'cert', 'key.pem')),
-		cert: fs.readFileSync(path.join(__dirname, 'cert', 'cert.pem')),
-	},
-	app
-);
+// const sslServer = https.createServer(
+// 	{
+// 		key: fs.readFileSync(path.join(__dirname, 'cert', 'key.pem')),
+// 		cert: fs.readFileSync(path.join(__dirname, 'cert', 'cert.pem')),
+// 	},
+// 	app
+// );
 
 const crawl = async ({ url }) => {
 	let obj = {};
@@ -82,6 +82,6 @@ app.get('/fetch', async (req, res) => {
 	res.send(json);
 });
 
-sslServer.listen(port, () => {
+app.listen(port, () => {
 	console.log(`Example app listening at http://localhost:${port}`);
 });
